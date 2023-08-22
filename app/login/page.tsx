@@ -43,7 +43,7 @@ function Page() {
             <Login />
           </div>
           <h1 className="bottom-text  text-xs mt-3 ">
-            Don't Have an Account?{" "}
+            Don&#39;t Have an Account?{" "}
             <Link
               href="http://localhost:3000/signup"
               className="login-link capitalize font-bold text-green-yellow"
