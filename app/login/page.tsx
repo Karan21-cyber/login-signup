@@ -45,7 +45,7 @@ function Page() {
           <h1 className="bottom-text  text-xs mt-3 ">
             Don&#39;t Have an Account?{" "}
             <Link
-              href="http://localhost:3000/signup"
+              href="/signup"
               className="login-link capitalize font-bold text-green-yellow"
             >
               SIGNUP
@@ -55,10 +55,7 @@ function Page() {
         <div className="flex w-full justify-between flex-col xl:flex-row mb-6 gap-2">
           <h1 className="bottom-text  text-base  font-normal">
             Copyright &copy; 2023{" "}
-            <Link
-              href="http://localhost:3000/signup"
-              className="login-link capitalize  text-green-yellow"
-            >
+            <Link href="/" className="login-link capitalize  text-green-yellow">
               OrgaFarm
             </Link>{" "}
             All rights reserved

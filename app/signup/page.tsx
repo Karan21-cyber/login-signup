@@ -56,7 +56,7 @@ function Page() {
           <h1 className="bottom-text text-center text-xs mt-3 text-gray-label">
             Have an Account?{" "}
             <Link
-              href="http://localhost:3000/login"
+              href="/login"
               className="login-link capitalize font-bold text-gray-text"
             >
               LOGIN
